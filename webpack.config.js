@@ -383,7 +383,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       "template": "./src\\index.html",
       "filename": "./index.html",
-      "hash": false,
+      "hash": true,
       "inject": true,
       "compile": true,
       "favicon": false,
@@ -406,9 +406,9 @@ module.exports = {
         else {
             return 0;
         }
-    }
+      }
     }),
-    new BaseHrefWebpackPlugin({}),
+    new BaseHrefWebpackPlugin({baseHref: process.env.NODE_ENV == 'development' || process.env.NODE_ENV == 'dev' ? '/' : '/ng-i18n-aot-demo/'}),
     new CommonsChunkPlugin({
       "name": [
         "inline"
