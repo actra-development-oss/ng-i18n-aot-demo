@@ -1,0 +1,36 @@
+{
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "project": {
+        "name": "@actra-development-oss/ng-i18n-aot-demo",
+        "ejected": true
+    },
+    "apps": [
+        {
+            "root": "src",
+            "outDir": "docs",
+            "assets": [
+                "assets",
+                "favicon.ico"
+            ],
+            "index": "index.html",
+            "main": "main.ts",
+            "polyfills": "polyfills.ts",
+            "tsconfig": "tsconfig.app.json",
+            "prefix": "app",
+            "styles": [
+                "styles.css"
+            ],
+            "scripts": [],
+            "environmentSource": "environments/environment.ts",
+            "environments": {
+                "dev": "environments/environment.ts",
+                "prod": "environments/environment.prod.ts"
+            }
+        }
+    ],
+    "defaults": {
+        "styleExt": "css",
+        "component": {
+        }
+    }
+}
