@@ -8,7 +8,7 @@
         "webpack"
     ],
     "license":          "MIT",
-    "version":          "1.0.0",
+    "version":          "1.0.1",
     "author":           {
         "name":  "Gabriel Schuster - actra.development",
         "email": "opensource@actra.de",
@@ -24,45 +24,45 @@
         "email": "opensource@actra.de"
     },
     "dependencies":     {
-        "@actra-development-oss/ng-i18n-aot-module":                       "1.0.5",
+        "@actra-development-oss/ng-i18n-aot-module":                       "1.0.6",
         "@actra-development-oss/redux-persist-transform-filter-immutable": "0.1.2",
         
         
-        "@angular/animations":               "4.3.5",
-        "@angular/common":                   "4.3.5",
-        "@angular/compiler":                 "4.3.5",
-        "@angular/core":                     "4.3.5",
-        "@angular/forms":                    "4.3.5",
-        "@angular/http":                     "4.3.5",
-        "@angular/platform-browser":         "4.3.5",
-        "@angular/platform-browser-dynamic": "4.3.5",
-        "@angular/router":                   "4.3.5",
+        "@angular/animations":               "^4.1.0 || 5.0.0-beta.0 - 5.0.0-beta.3",
+        "@angular/common":                   "^4.1.0 || 5.0.0-beta.0 - 5.0.0-beta.3",
+        "@angular/compiler":                 "^4.1.0 || 5.0.0-beta.0 - 5.0.0-beta.3",
+        "@angular/core":                     "^4.1.0 || 5.0.0-beta.0 - 5.0.0-beta.3",
+        "@angular/forms":                    "^4.1.0 || 5.0.0-beta.0 - 5.0.0-beta.3",
+        "@angular/http":                     "^4.1.0 || 5.0.0-beta.0 - 5.0.0-beta.3",
+        "@angular/platform-browser":         "^4.1.0 || 5.0.0-beta.0 - 5.0.0-beta.3",
+        "@angular/platform-browser-dynamic": "^4.1.0 || 5.0.0-beta.0 - 5.0.0-beta.3",
+        "@angular/router":                   "^4.1.0 || 5.0.0-beta.0 - 5.0.0-beta.3",
         
         
         "core-js":                           "2.5.0",
         "rxjs":                              "5.4.3",
-        "zone.js":                           "0.8.16"
+        "zone.js":                           "0.8.17"
     },
     "devDependencies":  {
-        "@actra-development-oss/ng-i18n-aot-loader": "1.0.3",
+        "@actra-development-oss/ng-i18n-aot-loader": "1.0.6",
         
         
-        "@angular/cli":              "1.3.1",
-        "@angular/compiler-cli":     "4.3.5",
-        "@angular/language-service": "4.3.5",
+        "@angular/cli":              "1.4.0-rc.1",
+        "@angular/compiler-cli":     "^4.1.0 || 5.0.0-beta.0 - 5.0.0-beta.3",
+        "@angular/language-service": "^4.1.0 || 5.0.0-beta.0 - 5.0.0-beta.3",
         
         
-        "@types/angular":           "1.6.30",
+        "@types/angular":           "1.6.31",
         "@types/core-js":           "0.9.43",
-        "@types/node":              "8.0.24",
+        "@types/node":              "8.0.25",
         "@types/rx":                "4.1.1",
         "@types/rx-angular":        "0.0.30",
         "@types/uglify-js":         "2.6.29",
-        "@types/webpack":           "3.0.9",
+        "@types/webpack":           "3.0.10",
         
         
         "autoprefixer":               "7.1.2",
-        "circular-dependency-plugin": "^3.0.0",
+        "circular-dependency-plugin": "4.1.0",
         "css-loader":                 "0.28.5",
         "cssnano":                    "3.10.0",
         "cross-env":                  "5.0.5",
@@ -72,7 +72,7 @@
         "less-loader":                "^4.0.5",
         "postcss":                    "6.0.9",
         "postcss-loader":             "2.0.6",
-        "postcss-url":                "^5.1.2",
+        "postcss-url":                "7.1.2",
         "raw-loader":                 "0.5.1",
         "sass-loader":                "6.0.6",
         "script-loader":              "0.7.0",
@@ -80,11 +80,11 @@
         "style-loader":               "0.18.2",
         "stylus-loader":              "^3.0.1",
         "ts-node":                    "3.3.0",
-        "tslint":                     "5.6.0",
+        "tslint":                     "5.7.0",
         "typescript":                 "2.4.2",
         "url-loader":                 "0.5.9",
         "webpack-dev-server":         "2.7.1",
-        "webpack":                    "3.4.1",
+        "webpack":                    "3.5.5",
         "yarn":                       "0.27.5"
     },
     "scripts":          {
